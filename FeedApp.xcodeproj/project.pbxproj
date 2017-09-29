@@ -16,7 +16,9 @@
 		D20D0A041F7D771F00492229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20D0A021F7D771F00492229 /* LaunchScreen.storyboard */; };
 		D20D0A0F1F7D771F00492229 /* FeedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20D0A0E1F7D771F00492229 /* FeedAppTests.m */; };
 		D20D0A1A1F7D771F00492229 /* FeedAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20D0A191F7D771F00492229 /* FeedAppUITests.m */; };
-		D20D0A281F7D798E00492229 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D20D0A271F7D798E00492229 /* GoogleService-Info.plist */; };
+		D23C89EC1F7E842700F945D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23C89EB1F7E842700F945D9 /* GoogleService-Info.plist */; };
+		D23C89EF1F7E8C3D00F945D9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */; };
+		D23C89F21F7E8C7700F945D9 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */; };
 		FC641E63C03BA28F3A66AA31 /* libPods-FeedAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E62B8C2E8160B32E250289 /* libPods-FeedAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +59,11 @@
 		D20D0A151F7D771F00492229 /* FeedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20D0A191F7D771F00492229 /* FeedAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedAppUITests.m; sourceTree = "<group>"; };
 		D20D0A1B1F7D771F00492229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D20D0A271F7D798E00492229 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D23C89EB1F7E842700F945D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D23C89ED1F7E8C3D00F945D9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		D23C89F01F7E8C7700F945D9 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		E47D999FB775B59DD2DB5DE9 /* Pods-FeedAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedAppUITests/Pods-FeedAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E62B8C2E8160B32E250289 /* libPods-FeedAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FeedAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED729B4185BA15F57608B315 /* Pods-FeedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedApp/Pods-FeedApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,13 +136,17 @@
 		D20D09F31F7D771F00492229 /* FeedApp */ = {
 			isa = PBXGroup;
 			children = (
+				D23C89ED1F7E8C3D00F945D9 /* LoginViewController.h */,
+				D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */,
+				D23C89F01F7E8C7700F945D9 /* SignUpViewController.h */,
+				D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */,
 				D20D09F71F7D771F00492229 /* AppDelegate.h */,
 				D20D09F81F7D771F00492229 /* AppDelegate.m */,
 				D20D09FD1F7D771F00492229 /* Main.storyboard */,
 				D20D0A001F7D771F00492229 /* Assets.xcassets */,
 				D20D0A021F7D771F00492229 /* LaunchScreen.storyboard */,
 				D20D0A051F7D771F00492229 /* Info.plist */,
-				D20D0A271F7D798E00492229 /* GoogleService-Info.plist */,
+				D23C89EB1F7E842700F945D9 /* GoogleService-Info.plist */,
 				D20D09F41F7D771F00492229 /* Supporting Files */,
 			);
 			path = FeedApp;
@@ -294,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20D0A041F7D771F00492229 /* LaunchScreen.storyboard in Resources */,
-				D20D0A281F7D798E00492229 /* GoogleService-Info.plist in Resources */,
+				D23C89EC1F7E842700F945D9 /* GoogleService-Info.plist in Resources */,
 				D20D0A011F7D771F00492229 /* Assets.xcassets in Resources */,
 				D20D09FF1F7D771F00492229 /* Main.storyboard in Resources */,
 			);
@@ -470,6 +480,8 @@
 			files = (
 				D20D09F91F7D771F00492229 /* AppDelegate.m in Sources */,
 				D20D09F61F7D771F00492229 /* main.m in Sources */,
+				D23C89F21F7E8C7700F945D9 /* SignUpViewController.m in Sources */,
+				D23C89EF1F7E8C3D00F945D9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +635,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.flood2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passs34.FeedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -635,7 +647,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.flood2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passs34.FeedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

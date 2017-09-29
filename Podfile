@@ -8,6 +8,8 @@ target 'FeedApp' do
   # Pods for FeedApp
 
 pod 'Firebase/Core'
+pod 'Firebase/Auth'
+
 target 'FeedAppTests' do
     inherit! :search_paths
     # Pods for testing

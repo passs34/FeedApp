@@ -7,36 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>300830567303-pcqea6pbhvqb03i1v4ol7dsqnjcgad6a.apps.googleusercontent.com</string>
+	<string>837964401557-hrrsb2begdnv9pr9ogt5ip9ubqab4mqv.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.300830567303-pcqea6pbhvqb03i1v4ol7dsqnjcgad6a</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>300830567303-kuq7unu52cngmd7qif6hsn39ddam86j6.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.837964401557-hrrsb2begdnv9pr9ogt5ip9ubqab4mqv</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAKBoF7WH8D_y9Gg4lKQt55W7uIXyYyJis</string>
+	<string>AIzaSyDiXv3E7DK-WKCWA7ew4scU2B5p3nIEN78</string>
 	<key>GCM_SENDER_ID</key>
-	<string>300830567303</string>
+	<string>837964401557</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.google.flood2</string>
+	<string>com.passs34.FeedApp</string>
 	<key>PROJECT_ID</key>
-	<string>fir-demo-project</string>
+	<string>feedapp-e9410</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-demo-project.appspot.com</string>
+	<string>feedapp-e9410.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:300830567303:ios:09b1ab1d3ca29bda</string>
+	<string>1:837964401557:ios:80f0c0f186beffab</string>
 	<key>DATABASE_URL</key>
-	<string>https://fir-demo-project.firebaseio.com</string>
+	<string>https://feedapp-e9410.firebaseio.com</string>
 </dict>
 </plist>

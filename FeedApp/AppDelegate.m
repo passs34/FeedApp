@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,6 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [FIRApp configure];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    [self.window makeKeyAndVisible];
+    [self.window.rootViewController presentViewController:[storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"] animated:NO completion:NULL];
+ 
     return YES;
 }
 
