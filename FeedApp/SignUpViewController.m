@@ -7,7 +7,7 @@
 //
 
 #import "SignUpViewController.h"
-
+#import "FirstViewController.h"
 @import Firebase;
 @interface SignUpViewController ()
 
@@ -64,15 +64,41 @@
     
 }
 
+
+
 - (IBAction)signUpButton:(id)sender {
+    
+    //[self showTabBarcontroller];
+    
+    
     
     [[FIRAuth auth] createUserWithEmail:self.emailText.text
                                password:self.passwordText.text
                              completion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
+                                 
+                                 if (user != nil) {
+                                     [self showTabBarcontroller];
+                                 } else { [self showErrorAlert:error controller:self];
+                                     
+                                 }
+                                 
                                  // ...
                              }];
     
-    
-    
 }
+
+-(void)showTabBarcontroller {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    [self presentViewController:[storyboard instantiateViewControllerWithIdentifier:@"FirstViewController"] animated:NO completion:NULL];
+    }
+
+-(void)showErrorAlert:(NSError*)error controller:(UIViewController*)controller {
+    
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:@"User or Email not found" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:action];
+    [controller presentViewController:alert animated:YES completion:nil];
+}
+
 @end

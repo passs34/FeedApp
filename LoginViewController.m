@@ -37,7 +37,34 @@
 */
 
 - (IBAction)LoginButton:(id)sender {
+    
+    [[FIRAuth auth] signInWithEmail:self.emailTextField.text
+                           password:self.passswordTextField.text
+                         completion:^(FIRUser *user, NSError *error) {
+                             // ...
+                             if (user != nil) {
+                                 [self showTabBarcontroller];
+                             } else { [self showErrorAlert:error controller:self];
+                                 
+                             }
+                         }];
 }
+
+-(void)showTabBarcontroller {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    [self presentViewController:[storyboard instantiateViewControllerWithIdentifier:@"FirstViewController"] animated:NO completion:NULL];
+}
+
+-(void)showErrorAlert:(NSError*)error controller:(UIViewController*)controller {
+    
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:@"Incorrect login or password" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:action];
+    [controller presentViewController:alert animated:YES completion:nil];
+}
+
+
 
 - (IBAction)signUpBotton:(id)sender {
 }

@@ -19,6 +19,7 @@
 		D23C89EC1F7E842700F945D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23C89EB1F7E842700F945D9 /* GoogleService-Info.plist */; };
 		D23C89EF1F7E8C3D00F945D9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */; };
 		D23C89F21F7E8C7700F945D9 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */; };
+		D253FDEE1F83D5C20042E922 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D253FDED1F83D5C20042E922 /* FirstViewController.m */; };
 		FC641E63C03BA28F3A66AA31 /* libPods-FeedAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E62B8C2E8160B32E250289 /* libPods-FeedAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 		D23C89F01F7E8C7700F945D9 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D253FDEC1F83D5C20042E922 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D253FDED1F83D5C20042E922 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		E47D999FB775B59DD2DB5DE9 /* Pods-FeedAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedAppUITests/Pods-FeedAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E62B8C2E8160B32E250289 /* libPods-FeedAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FeedAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED729B4185BA15F57608B315 /* Pods-FeedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedApp/Pods-FeedApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				D23C89EE1F7E8C3D00F945D9 /* LoginViewController.m */,
 				D23C89F01F7E8C7700F945D9 /* SignUpViewController.h */,
 				D23C89F11F7E8C7700F945D9 /* SignUpViewController.m */,
+				D253FDEC1F83D5C20042E922 /* FirstViewController.h */,
+				D253FDED1F83D5C20042E922 /* FirstViewController.m */,
 				D20D09F71F7D771F00492229 /* AppDelegate.h */,
 				D20D09F81F7D771F00492229 /* AppDelegate.m */,
 				D20D09FD1F7D771F00492229 /* Main.storyboard */,
@@ -480,6 +485,7 @@
 			files = (
 				D20D09F91F7D771F00492229 /* AppDelegate.m in Sources */,
 				D20D09F61F7D771F00492229 /* main.m in Sources */,
+				D253FDEE1F83D5C20042E922 /* FirstViewController.m in Sources */,
 				D23C89F21F7E8C7700F945D9 /* SignUpViewController.m in Sources */,
 				D23C89EF1F7E8C3D00F945D9 /* LoginViewController.m in Sources */,
 			);
